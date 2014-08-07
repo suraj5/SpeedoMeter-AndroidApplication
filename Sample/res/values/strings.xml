@@ -1,0 +1,72 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Effective Navigation</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+ <!-- Address format -->
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="timer">00:00:00</string>
+    <string name="timer_name">TIMER</string>
+    <string name="speed_image">speed image</string>
+    <string name="speed_value">00.0</string>
+    <string name="speed_measurment">Kmph</string>
+    <string name="speed_name">SPEED</string>
+    <string name="avg_speed_icon">avg_speed_icon</string>
+    <string name="avg_speed_value">0.0</string>
+    <string name="avg_speed_text">AVG SPEED</string>
+    <string name="distance_measurment">Km</string>
+    <string name="distance_name">DISTANCE</string>
+    <string name="speed_limit">SPEED LIMIT</string>
+    <string name="TrackLocation">Track your Location</string>
+    <string name="start">START</string>
+    <string name="distance_image">Distance Image</string>
+     <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">
+        Can\'t request location updates, previous request hasn\'t finished
+    </string>
+     <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">
+        Received an unknown activity request code %1$d in onActivityResult.
+    </string>
+      <string name="illegal_argument_exception">
+        Illegal arguments: Latitude %1$.8f Longitude %2$.8f
+    </string>
+      <string name="pause">PAUSE</string>
+      <string name="stop">STOP</string>
+      <string name="distance_value">00.00</string>
+ 
+    
+</resources>
